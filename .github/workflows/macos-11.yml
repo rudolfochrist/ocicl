@@ -19,7 +19,7 @@ jobs:
           curl -L -O "http://prdownloads.sourceforge.net/sbcl/sbcl-2.2.9-x86-64-darwin-binary.tar.bz2"
           tar -xf sbcl-2.2.9-x86-64-darwin-binary.tar.bz2
           cd sbcl-2.2.9-x86-64-darwin
-          ./install.sh --prefix=/usr/local/bin
+          ./install.sh --prefix=$HOME/bin
           cd ..
           rm -rf sbcl-2.2.9-x86-64-darwin-binary.tar.bz2 sbcl-2.2.9-x86-64-darwin
         shell: bash
