@@ -26,7 +26,7 @@ jobs:
       - name: Build and Install
         run: |
           make
-          make install
+          DESTDIR=$HOME make install
           ocicl setup > ~/.sbclrc
           echo "(setf ocicl-runtime:*verbose* t)" >> ~/.sblrc
         shell: bash
