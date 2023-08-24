@@ -346,5 +346,3 @@ This software includes Lisp source code files written by Zachary
 Beane, Mark Karpov, and PMSF IT Consulting Pierre R. Mai.  See the
 ocicl source files for details.
 
-
-foofoofoo
